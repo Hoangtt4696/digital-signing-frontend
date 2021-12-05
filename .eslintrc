@@ -1,0 +1,90 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 180
+      }
+    ],
+    "prefer-promise-reject-errors": [
+      "off"
+    ],
+    "react/jsx-filename-extension": [
+      "off"
+    ],
+    "react/prop-types": [
+      "off"
+    ],
+    "no-return-assign": [
+      "warn"
+    ],
+    "import/prefer-default-export": "off",
+    "react/button-has-type": [
+      0,
+      {
+        "button": false,
+        "submit": false,
+        "reset": false
+      }
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "no-console": "off",
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+        "message": "Unexpected property on console object was called"
+      }
+    ],
+    "import/no-unresolved": [
+      0,
+      {
+        "commonjs": true,
+        "caseSensitive": true
+      }
+    ],
+    "react/jsx-props-no-spreading": [
+      0,
+      {}
+    ],
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "arrow-body-style": [
+      "off"
+    ],
+    "jsx-a11y/img-redundant-alt": [
+      0
+    ],
+    "no-unneeded-ternary": [
+      0
+    ],
+    "no-unescaped-entities": [
+      "off"
+    ]
+  }
+}
