@@ -13,7 +13,6 @@ const ModalConfirm = ({ title, content, open, handleClose, btnOk, btnCancel }) =
       onClose={handleClose}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
-      disableBackdropClick
       disableEscapeKeyDown
     >
       <DialogTitle id="alert-dialog-title">{title}</DialogTitle>

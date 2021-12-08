@@ -1,0 +1,10 @@
+body {
+  background-color: #E5E5E5;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}

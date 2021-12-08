@@ -40,7 +40,6 @@ const withLoading = (WrappedComponent, message) => {
         </Helmet>
         {isLoading && (
           <Wrapper>
-            <img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="logo" height="40" />
             <h2>{message ? message : 'loading...'}</h2>
           </Wrapper>
         )}

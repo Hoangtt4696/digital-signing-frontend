@@ -4,7 +4,7 @@ import { COLOR } from 'ds-constants';
 export default createTheme({
   palette: {
     primary: {
-      main: COLOR.sodium,
+      main: COLOR.royalBlue,
     },
     secondary: {
       main: COLOR.textDanger,
@@ -13,4 +13,9 @@ export default createTheme({
       main: COLOR.textSecondary,
     },
   },
+  typography: {
+    button: {
+      textTransform: 'none',
+    }
+  }
 });

@@ -10,10 +10,17 @@ export const COLOR = {
   blue: '#0052CC',
   white: '#FFF',
   redDirt: '#DE350B',
-  gray: '#4F4F4F',
   gray6: '#F2F2F2',
   pine: '#36B37E',
   lightBlue: 'rgb(178, 212, 255)',
+  catalinaBlue: '#082977',
+  mercurysolid: '#E5E5E5',
+  mineShaft: '#3B3B3B',
+  emperor: '#4F4F4F',
+  primaryBlue: '#4D5F78',
+  royalBlue: '#3565E3',
+  iron: '#E0DEDC',
+  cloudBurst: '#22354C',
 };
 
 export const DIMENSION = {
